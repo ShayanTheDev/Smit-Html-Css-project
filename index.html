@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Project</title>
+
+    <!-- CSS -->
+    <style>
+        .myDiv {
+            background-color: #1E1E1E;
+            text-align: center;
+        }
+
+        h1 {
+            color: #F6B422;
+            font-family: sans-serif;
+            font-size: 35px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1E1E1E;
+        }
+
+        hr {
+            border: 1px solid #F6B422;
+        }
+
+        button {
+            background-color: #F6B422;
+        }
+
+        button {
+            color: black;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: #F6B422;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .headcolour {
+            background-color: #1E1E1E;
+
+        }
+
+        .footercolour {
+            background-color: #1E1E1E;
+        }
+
+        .para {
+            color: #F6B422;
+            text-align: center;
+        }
+
+        fieldset {
+            border: none;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER SECTION -->
+
+    <header class="headcolour">
+        <hr>
+        <br>
+        <nav class="header">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <hr>
+    </header>
+
+    <!-- MAIN SECTION -->
+
+    <main>
+        <div class="myDiv">
+            <fieldset>
+                <h1>Get In Touch</h1><br><br>
+                <form action="success.html">
+                    <input type="text" placeholder="Full Name..." size="120" style="height: 35px;" required><br><br>
+                    <input type="email" placeholder="Full Email Id..." size="120" style="height: 35px;"
+                        required /><br><br>
+                    <input type="text" placeholder="Full Mobile No..." size="120" style="height: 35px;"
+                        required /><br><br>
+                    <textarea cols="112" rows="5" placeholder="Enter Address..." required></textarea><br><br>
+                    <button
+                        style="width: 840px; height: 43px; border: #1E1E1E; ">Submit</button><br><br><br><br><br><br><br><br><br><br><br>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footercolour">
+        <hr>
+        <br>
+        <br>
+        <p class="para">© 2025 ShayanShah. All Rights Reserved.</p>
+        <hr>
+    </footer>
+    
+</body>
+</html>
