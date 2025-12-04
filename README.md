@@ -5,8 +5,8 @@ Theme: High-contrast dark background (#1E1E1E) with gold accents (#F6B422).
 
 Layout:
 
-Semantic HTML5 Structure (<header>, <main>, <footer>).
+Semantic HTML5 Structure (header, main, footer).
 
-Horizontal Navigation using Flexbox (display: flex).
+Horizontal Navigation using Flexbox display: flex.
 
 Styled Contact Form with basic validation.
